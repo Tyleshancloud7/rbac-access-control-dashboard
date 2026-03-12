@@ -1,0 +1,22 @@
+[
+  {
+    "username": "admin",
+    "password": "AdminPass123!",
+    "role": "Admin"
+  },
+  {
+    "username": "analyst",
+    "password": "AnalystPass123!",
+    "role": "Security Analyst"
+  },
+  {
+    "username": "employee",
+    "password": "EmployeePass123!",
+    "role": "Employee"
+  },
+  {
+    "username": "guest",
+    "password": "GuestPass123!",
+    "role": "Guest"
+  }
+]

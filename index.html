@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RBAC Access Control Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>RBAC Access Control Dashboard</h1>
+    <p class="subtitle">Simulating role-based access control and least privilege</p>
+
+    <div class="card">
+      <form id="loginForm">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Enter username" required />
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter password" required />
+
+        <button type="submit">Login</button>
+      </form>
+
+      <div id="dashboard" class="hidden">
+        <h2>Dashboard</h2>
+        <p id="welcomeMessage"></p>
+        <p id="roleMessage"></p>
+
+        <div class="panel-grid">
+          <div class="panel" id="adminPanel">
+            <h3>Admin Panel</h3>
+            <p>Manage all users, permissions, and settings.</p>
+          </div>
+
+          <div class="panel" id="analystPanel">
+            <h3>Security Alerts</h3>
+            <p>View incident alerts, logs, and suspicious events.</p>
+          </div>
+
+          <div class="panel" id="employeePanel">
+            <h3>Employee Dashboard</h3>
+            <p>Access basic company resources and profile settings.</p>
+          </div>
+
+          <div class="panel" id="guestPanel">
+            <h3>Guest Access</h3>
+            <p>Limited view only. No sensitive resources available.</p>
+          </div>
+        </div>
+
+        <button id="logoutBtn">Logout</button>
+      </div>
+
+      <div id="result" class="result"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
