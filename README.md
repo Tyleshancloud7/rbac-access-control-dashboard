@@ -7,9 +7,15 @@
 ![CSS](https://img.shields.io/badge/CSS-Styling-blue)
 ![Status](https://img.shields.io/badge/Project-Live-success)
 
-A hands-on cybersecurity project demonstrating **Role-Based Access Control (RBAC)** and the **principle of least privilege**, two foundational security concepts used in enterprise identity systems.
-
 This project simulates how organizations control access to sensitive systems by assigning permissions based on user roles.
+A hands-on Identity & Access Management (IAM) project demonstrating Role-Based Access Control (RBAC) and the principle of least privilege. This project simulates how organizations control access to sensitive systems by assigning permissions based on user roles.
+
+
+
+
+
+
+
 
 ---
 
